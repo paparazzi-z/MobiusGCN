@@ -1,6 +1,6 @@
 # MobiusGCN
 Internship at Labo ETIS  
-A unofficial implement of the paper [3D Human Pose Estimation Using Möbius Graph Convolutional Networks](https://arxiv.org/pdf/2203.10554.pdf)
+A unofficial implement of the paper [3D Human Pose Estimation Using Möbius Graph Convolutional Networks](https://arxiv.org/pdf/2203.10554)
 ## Environment
 This repository is build upon Python3.8.10 and PyTorch1.10.0+cu102. NVIDIA GPUs are needed to train and test. The other requirements are saved in the file [requirements.txt](https://github.com/paparazzi-z/MobiusGCN/blob/main/requirements.txt).
 ## Dataset
@@ -28,4 +28,11 @@ You can get the visualization result by running the following command
 This work is mainly based on  
 * [SemGCN](https://github.com/garyzhao/SemGCN)
 * [CayleyNets](https://github.com/amoliu/CayleyNet)
-* [VideoPose3D](https://github.com/facebookresearch/VideoPose3D)
+* [VideoPose3D](https://github.com/facebookresearch/VideoPose3D)  
+
+This [repository](https://github.com/stanfordmlgroup/mobius) who uses Mobius transformation to realize data augmentation may help to optimize the algorithm.  
+
+Main reference papers
+* [3D Human Pose EstimationUsing Möbius Graph Convolutional Networks](https://arxiv.org/pdf/2203.10554)
+* [Semantic Graph Convolutional Networks for 3D Human Pose Regression](https://arxiv.org/pdf/1904.03345)
+* [CayleyNets: Graph Convolutional Neural Networks with Complex Rational Spectral Filters](https://arxiv.org/abs/1705.07664)
