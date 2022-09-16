@@ -2,7 +2,7 @@
 Internship at Labo ETIS  
 A unofficial implement of the paper [3D Human Pose Estimation Using Möbius Graph Convolutional Networks](https://arxiv.org/pdf/2203.10554.pdf)
 ## Environment
-This repository is build upon Python3.7 and PyTorchxxx. NVIDIA GPUs are needed to train and test. The other requirements are saved in the file [requirements.txt](https://github.com/paparazzi-z/MobiusGCN/blob/main/requirements.txt).
+This repository is build upon Python3.8.10 and PyTorch1.10.0+cu102. NVIDIA GPUs are needed to train and test. The other requirements are saved in the file [requirements.txt](https://github.com/paparazzi-z/MobiusGCN/blob/main/requirements.txt).
 ## Dataset
 I setup the dataset following the method of [VideoPose3D](https://github.com/facebookresearch/VideoPose3D). And you can find a clear instruction of dataset setup in the repository of [SemGCN](https://github.com/garyzhao/SemGCN/blob/master/data/README.md).  
 
